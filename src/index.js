@@ -1,9 +1,9 @@
-import home from './homePage';
+import home from './JS/homePage';
 import Logo from './images/bgd.png';
-import menu from './menu.js';
-import head from './header.js';
-import foot from './footer.js';
-import contact from './contact';
+import menu from './JS/menu.js';
+import head from './JS/header.js';
+import foot from './JS/footer.js';
+import contact from './JS/contact';
 
 const { div } = home();
 const { headerContainer,
