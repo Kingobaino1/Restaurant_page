@@ -11,27 +11,28 @@ const head = () => {
 
   const home = document.createElement('li');
   home.classList.add('text-white');
-  const homeLink = document.createElement('a');
-  homeLink.className = 'text-white text-decoration-none';
-  homeLink.href = '#'
-  homeLink.textContent = 'Home'
+  const homeLink = document.createElement('button');
+  homeLink.setAttribute('type', 'button');
+  homeLink.className = 'text-white btn btn-secondary';
+  homeLink.textContent = 'Home';
   home.appendChild(homeLink);
   links.appendChild(home);
 
   const menu = document.createElement('li');
   menu.classList.add('text-white');
-  const menuLink = document.createElement('a');
-  menuLink.className = 'text-white text-decoration-none';
-  menuLink.href = '#'
+  const menuLink = document.createElement('button');
+  menuLink.className = 'text-white btn btn-secondary';
+  menuLink.setAttribute('type', 'button');
   menuLink.textContent = 'Menu';
   menu.appendChild(menuLink);
   links.appendChild(menu);
 
   const contact = document.createElement('li');
   contact.classList.add('text-white');
-  const contactLink = document.createElement('a');
-  contactLink.className = 'text-white text-decoration-none';
-  contactLink.textContent = 'Contact'
+  const contactLink = document.createElement('button');
+  contactLink.className = 'text-white btn btn-secondary';
+  contactLink.setAttribute('type', 'button');
+  contactLink.textContent = 'Contact';
   contact.appendChild(contactLink);
   links.appendChild(contact);
   headerContainer.appendChild(links);
