@@ -4,7 +4,7 @@ const menu = () => {
   const item1 = document.createElement('div');
   item1.className = 'col-5 m-4 d-flex flex-column align-content-center border';
   const itemImage1 = document.createElement('img');
-  itemImage1.setAttribute('src', '../src/images/bgd.png');
+  itemImage1.setAttribute('src', './bgd.png');
   itemImage1.setAttribute('alt', 'Sample image');
   itemImage1.className = 'image-item mx-auto'
   const itemTitle = document.createElement('h2');
@@ -22,7 +22,7 @@ const menu = () => {
   const item2 = document.createElement('div');
   item2.className = 'col-5 m-4 d-flex flex-column align-content-center border';
   const itemImage2 = document.createElement('img');
-  itemImage2.setAttribute('src', '../src/images/abacha.png');
+  itemImage2.setAttribute('src', './abacha.png');
   itemImage2.setAttribute('alt', 'Sample image');
   itemImage2.className = 'image-item mx-auto'
   const itemTitle1 = document.createElement('h2');
@@ -40,7 +40,7 @@ const menu = () => {
   const item3 = document.createElement('div');
   item3.className = 'col-5 border m-4 d-flex flex-column align-content-center';
   const itemImage3 = document.createElement('img');
-  itemImage3.setAttribute('src', '../src/images/egusi.jpeg');
+  itemImage3.setAttribute('src', './egusi.jpeg');
   itemImage3.setAttribute('alt', 'Sample image');
   itemImage3.className = 'image-item mx-auto';
   const itemTitle2 = document.createElement('h2');
@@ -58,7 +58,7 @@ const menu = () => {
   const item4 = document.createElement('div');
   item4.className = 'col-5 border m-4 d-flex flex-column align-content-center';
   const itemImage4 = document.createElement('img');
-  itemImage4.setAttribute('src', '../src/images/moi-moi.jpeg');
+  itemImage4.setAttribute('src', './moi-moi.jpeg');
   itemImage4.setAttribute('alt', 'Sample image');
   itemImage4.className = 'image-item mx-auto'
   const itemTitle3 = document.createElement('h2');
@@ -76,7 +76,7 @@ const menu = () => {
   const item5 = document.createElement('div');
   item5.className = 'col-5 border m-4 d-flex flex-column align-content-center';
   const itemImage5 = document.createElement('img');
-  itemImage5.setAttribute('src', '../src/images/nsala.jpg');
+  itemImage5.setAttribute('src', './nsala.jpg');
   itemImage5.setAttribute('alt', 'Sample image');
   itemImage5.className = 'image-item mx-auto'
   const itemTitle4 = document.createElement('h2');
@@ -94,7 +94,7 @@ const menu = () => {
   const item6 = document.createElement('div');
   item6.className = 'col-5 border m-4 d-flex flex-column align-content-center';
   const itemImage6 = document.createElement('img');
-  itemImage6.setAttribute('src', '../src/images/ukwa.jpeg');
+  itemImage6.setAttribute('src', './ukwa.jpeg');
   itemImage6.setAttribute('alt', 'Sample image');
   itemImage6.className = 'image-item mx-auto';
   const itemTitle5 = document.createElement('h2');
