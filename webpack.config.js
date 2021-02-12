@@ -20,20 +20,10 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jpeg|svg|jpg|gif)$/,
-        use: [
-          {
-            loader: 'file-loader',
-          }
-        ]
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
       },
     ],
   },
-  plugins: [
-    new CopyPlugin({
-      patterns: [
-        { from: "src", to: "dist" },
-      ],
-    }),
-  ],
+
 }
