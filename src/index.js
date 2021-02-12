@@ -5,7 +5,7 @@ import foot from './JS/footer';
 import contact from './JS/contact';
 
 const { div } = home();
-const { 
+const {
   headerContainer,
   homeLink, menuLink,
   contactLink,

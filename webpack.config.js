@@ -27,14 +27,14 @@ module.exports = {
           {
             loader: 'image-webpack-loader',
             options: {
-            disable: true,
+              disable: true,
             },
           },
         ],
       },
     ],
   },
-   plugins: [
+  plugins: [
     new CopyPlugin({
       patterns: [
         { from: './src/images', to: '../dist' },
