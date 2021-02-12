@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build&&gh-pages -d build",
     "build": "webpack",
     "watch": " webpack --watch"
   },
@@ -17,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Kingobaino1/Restaurant_page/issues"
   },
-  "homepage": ".",
+  "homepage": "https://github.com/Kingobaino1.github.io/Restaurant_page",
   "devDependencies": {
     "css-loader": "^5.0.2",
     "file-loader": "^6.2.0",
