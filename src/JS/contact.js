@@ -14,4 +14,4 @@ const contact = () => {
   return contactUs;
 }
 
-export default contact
+export default contact;

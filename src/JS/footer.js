@@ -11,5 +11,4 @@ const foot = () => {
   return foot;
 }
 
-export default foot
-
+export default foot;

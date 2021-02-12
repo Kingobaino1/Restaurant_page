@@ -1,6 +1,7 @@
 .name {
   width: 50%;
 }
+
 #content {
   background: url('./images/bgd_image.jpg') no-repeat center center;
   background-size: cover;

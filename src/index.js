@@ -1,5 +1,4 @@
 import home from './JS/homePage';
-import Logo from './images/bgd.png';
 import menu from './JS/menu.js';
 import head from './JS/header.js';
 import foot from './JS/footer.js';
