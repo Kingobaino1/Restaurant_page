@@ -1,7 +1,8 @@
 const contact = () => {
   const contactUs = document.createElement('div');
+  contactUs.className = 'contact';
   const contactElement = document.createElement('div');
-  contactElement.className = 'w-50 mx-auto bg-dark h-50 d-flex flex-column';
+  contactElement.className = 'w-50 mx-auto h-50 d-flex flex-column bg-dark';
   const address = document.createElement('p');
   address.textContent = 'Address: Road 1 House 4, Udoka Housing Estate, Awka, Nigeria';
   address.className = 'w-50 mx-auto text-white';

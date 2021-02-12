@@ -50,4 +50,5 @@ a:active {
 
 .contact {
   height: 80vh;
+  filter: opacity(0.7);
 }
