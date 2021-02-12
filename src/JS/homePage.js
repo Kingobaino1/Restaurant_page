@@ -1,4 +1,4 @@
-import './style.css';
+import '../style.css';
 import head from './header.js';
 import foot from './footer.js';
 
