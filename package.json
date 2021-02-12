@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Kingobaino1.github.io/Restaurant_page",
   "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
     "css-loader": "^5.0.2",
     "file-loader": "^6.2.0",
     "style-loader": "^2.0.0",

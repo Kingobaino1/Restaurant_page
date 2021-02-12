@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyPlugin = require("copy-webpack-plugin");
 const { ModuleFilenameHelpers } = require('webpack');
 
 module.exports = {
@@ -28,4 +29,11 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        { from: "src", to: "dist" },
+      ],
+    }),
+  ],
 }
