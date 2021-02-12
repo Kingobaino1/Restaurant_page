@@ -6,7 +6,7 @@ const menu = () => {
   const itemImage1 = document.createElement('img');
   itemImage1.setAttribute('src', './bgd.png');
   itemImage1.setAttribute('alt', 'Sample image');
-  itemImage1.className = 'image-item mx-auto'
+  itemImage1.className = 'image-item mx-auto';
   const itemTitle = document.createElement('h2');
   itemTitle.className = 'text-white font-weight-bold mx-auto pt-3';
   itemTitle.textContent = 'Nkwobi';
@@ -24,7 +24,7 @@ const menu = () => {
   const itemImage2 = document.createElement('img');
   itemImage2.setAttribute('src', './abacha.png');
   itemImage2.setAttribute('alt', 'Sample image');
-  itemImage2.className = 'image-item mx-auto'
+  itemImage2.className = 'image-item mx-auto';
   const itemTitle1 = document.createElement('h2');
   itemTitle1.className = 'text-white font-weight-bold mx-auto pt-3';
   itemTitle1.textContent = 'Abacha';
@@ -60,7 +60,7 @@ const menu = () => {
   const itemImage4 = document.createElement('img');
   itemImage4.setAttribute('src', './moi-moi.jpeg');
   itemImage4.setAttribute('alt', 'Sample image');
-  itemImage4.className = 'image-item mx-auto'
+  itemImage4.className = 'image-item mx-auto';
   const itemTitle3 = document.createElement('h2');
   itemTitle3.className = 'text-white font-weight-bold mx-auto pt-3';
   itemTitle3.textContent = 'Moi Moi';
@@ -78,7 +78,7 @@ const menu = () => {
   const itemImage5 = document.createElement('img');
   itemImage5.setAttribute('src', './nsala.jpg');
   itemImage5.setAttribute('alt', 'Sample image');
-  itemImage5.className = 'image-item mx-auto'
+  itemImage5.className = 'image-item mx-auto';
   const itemTitle4 = document.createElement('h2');
   itemTitle4.className = 'text-white font-weight-bold mx-auto pt-3';
   itemTitle4.textContent = 'Nsala';
@@ -113,11 +113,11 @@ const menu = () => {
   viewMore.className = 'w-50 border mx-auto';
   const h6 = document.createElement('h6');
   h6.className = 'w-50 pt-3 mx-auto text-white';
-  h6.innerHTML = 'See more <span><i class="fas fa-arrow-right text-white pt-1"></i></span>'
+  h6.innerHTML = 'See more <span><i class="fas fa-arrow-right text-white pt-1"></i></span>';
   viewMore.appendChild(h6);
   menuContainer.appendChild(viewMore);
 
   return menuContainer;
-}
+};
 
 export default menu;

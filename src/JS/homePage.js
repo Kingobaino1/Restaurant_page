@@ -1,5 +1,5 @@
 import '../style.css';
-import foot from './footer.js';
+import foot from './footer';
 
 const footer = foot();
 
@@ -13,7 +13,7 @@ const home = () => {
   advert.appendChild(text);
 
   const description = document.createElement('h5');
-  description.textContent = "A home of good food(both local and international) and quality wine!";
+  description.textContent = 'A home of good food(both local and international) and quality wine!';
   description.className = 'm-5 text-white';
   advert.appendChild(description);
 
@@ -21,5 +21,5 @@ const home = () => {
   div.appendChild(footer);
 
   return { div };
-}
+};
 export default home;

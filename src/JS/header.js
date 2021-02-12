@@ -36,12 +36,12 @@ const head = () => {
   contact.appendChild(contactLink);
   links.appendChild(contact);
   headerContainer.appendChild(links);
-  return { 
+  return {
     headerContainer,
     homeLink,
     menuLink,
-    contactLink
+    contactLink,
+  };
 };
-}
 
 export default head;

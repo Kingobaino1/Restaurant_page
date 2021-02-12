@@ -1,6 +1,5 @@
 const path = require('path');
-const CopyPlugin = require("copy-webpack-plugin");
-const { ModuleFilenameHelpers } = require('webpack');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -16,10 +15,10 @@ module.exports = {
         test: /\.css$/,
         use: [
           'style-loader',
-          'css-loader'
-        ]
+          'css-loader',
+        ],
       },
-    {
+      {
         test: /\.(gif|png|jpe?g|svg)$/i,
         use: [
           {
@@ -38,9 +37,8 @@ module.exports = {
    plugins: [
     new CopyPlugin({
       patterns: [
-        { from: "./src/images", to: "../dist" },
+        { from: './src/images', to: '../dist' },
       ],
     }),
   ],
-
-}
+};
