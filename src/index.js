@@ -14,25 +14,25 @@ const content = document.querySelector('#content');
 content.appendChild(headerContainer);
 content.appendChild(div);
 
-function menuPage() {
+const menuPage = () => {
   content.innerHTML = '';
   content.appendChild(headerContainer);
   content.appendChild(menu());
   content.appendChild(foot());
-}
+};
 
-function homePage() {
+const homePage = () => {
   content.innerHTML = '';
   content.appendChild(headerContainer);
   content.appendChild(div);
-}
+};
 
-function contactPage() {
+const contactPage = () => {
   content.innerHTML = '';
   content.appendChild(headerContainer);
   content.appendChild(contact());
   content.appendChild(foot());
-}
+};
 
 homeLink.addEventListener('click', homePage);
 menuLink.addEventListener('click', menuPage);
