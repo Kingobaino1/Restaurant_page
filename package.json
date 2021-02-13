@@ -1,0 +1,31 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "This is a restaurant website where users can place order for their favorite meals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build&&gh-pages -d build",
+    "build": "webpack",
+    "watch": " webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kingobaino1/Restaurant_page.git"
+  },
+  "author": "Kingsley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kingobaino1/Restaurant_page/issues"
+  },
+  "homepage": "https://github.com/Kingobaino1.github.io/Restaurant_page",
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
